@@ -1,0 +1,21 @@
+id,area,question,nist_ai_rmf,iso_42001_annex_a,owasp_llm,weight
+AI-01,Governance,"Is there an approved AI policy covering acceptable and prohibited use?",GOVERN,A.2 Policies,-,3
+AI-02,Governance,"Is a named owner accountable for each AI system?",GOVERN,A.3 Internal organization,-,3
+AI-03,Inventory,"Is there an inventory of all AI systems, models and third-party AI services in use?",MAP,A.4 Resources,LLM03,3
+AI-04,Impact,"Is each AI use case assessed for impact on people and the business before approval?",MAP,A.5 Impact assessment,-,3
+AI-05,Data,"Is personal and confidential data classified before it is used with AI?",MAP,A.7 Data for AI systems,LLM02,3
+AI-06,People,"Are staff trained on safe and approved AI use?",GOVERN,A.4 Resources,LLM02,2
+AI-07,Third parties,"Are AI vendors assessed for data use, retention and training on customer data?",GOVERN,A.10 Third parties,LLM03,3
+AI-08,Shadow AI,"Is there an approved-tools list and a way to detect unapproved AI use?",GOVERN,A.9 Use of AI systems,LLM02,2
+AI-09,Testing,"Are AI systems tested for prompt injection and jailbreaks before release?",MEASURE,A.6 Lifecycle,LLM01,3
+AI-10,Output handling,"Are model outputs validated before downstream systems act on them?",MANAGE,A.6 Lifecycle,LLM05,2
+AI-11,Agents,"Are agent permissions least-privilege with human approval for high-impact actions?",MANAGE,A.9 Use of AI systems,LLM06,3
+AI-12,Logging,"Are prompts, outputs and tool calls logged well enough for audit and investigation?",MEASURE,A.6 Lifecycle,-,2
+AI-13,Data integrity,"Are training and retrieval data sources vetted and protected against poisoning?",MAP,A.7 Data for AI systems,LLM04,2
+AI-14,Secrets,"Are system prompts and embedded secrets protected from disclosure?",MANAGE,A.6 Lifecycle,LLM07,2
+AI-15,Availability,"Are usage limits and cost controls in place to prevent abuse?",MANAGE,A.6 Lifecycle,LLM10,1
+AI-16,Quality,"Are accuracy, bias and misinformation risks tested and monitored?",MEASURE,A.5 Impact assessment,LLM09,2
+AI-17,Incidents,"Is there an AI incident response procedure?",MANAGE,A.6 Lifecycle,-,2
+AI-18,Transparency,"Are users told when they interact with AI and are limitations documented?",GOVERN,A.8 Information for users,-,1
+AI-19,Legal,"Are legal and regulatory requirements identified for each AI use case?",GOVERN,A.2 Policies,-,2
+AI-20,Change control,"Are models and AI components versioned with change control and rollback?",MANAGE,A.6 Lifecycle,LLM03,2
